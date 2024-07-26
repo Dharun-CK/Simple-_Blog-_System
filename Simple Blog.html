@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/> <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Simple-Blog</title>
+</head>
+<body>  
+    <header class="p-3 bg-dark text-white sticky-top">
+        <div class="row">
+            <div class="col-12 col-md-6 ">
+            <h1>CK Vlog</h1>
+             </div>
+            <div class="mt-2 col-12 col-md-6 d-flex justify-content-start  justify-content-md-end">
+                <nav >
+                    <ul class="list-inline ">
+                        <li class="list-inline-item "><a class="text-white text-decoration-none"  href="#">Home</a></li>
+                        <li class="list-inline-item"><a  class="text-white text-decoration-none" href="#">About</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">About</a></li>
+                        <li  class="list-inline-item"><a  class="text-white text-decoration-none" href="#">Portofolio</a></li>
+                        <li class="list-inline-item"><a  class="text-white text-decoration-none" href="#">Skills</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container pt-5  ">
+        <div class="card bg-dark text-white">
+            <div class="card-body">
+                 <h1 class="card-title">Bootstrap Tutorial Simple Blog</h1>
+            <p class="card-text">Here view the recent activity</p>
+                </div>
+        </div>
+        
+        <div class="row mt-4">
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded h-100 w-100"  src="https://picsum.photos/300/200.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class="mb-3">Post Day1</h2>
+                                <p>Date: July 18,2024</p>
+                                <p>
+                                    This is Very beautiful day in the Life ! I lived in a set of placess
+                                </p>
+                               </div>            
+                        </div>
+                    </div>
+                   </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded h-100 w-100" src="https://picsum.photos/300/200.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class="mb-3">Post Day2</h2>
+                                <p>Date: July 19,2024</p>
+                                <p>
+                                    This is Very beautiful day in the Life ! I lived in a set of placess
+                                </p>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded h-100 w-100" src="https://picsum.photos/300/200.jpg" alt="">    
+                    
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2  class="mb-3">Post Day3</h2>
+                                <p>Date: July 20,2024</p>
+                                <p>
+                                    This is Very beautiful day in the Life ! I lived in a set of placess
+                                </p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+             </div>
+        
+         <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-3">
+            <div class="card">
+                <div class="row">
+                    <div class="col-6 col-sm-12">
+                        <img class="img-fluid rounded h-100 w-100" src="https://picsum.photos/300/200.jpg" alt="">
+                    </div>
+                    <div class="col-6 col-sm-12">
+                        <div class="card-body">
+                            <h2 class="mb-3">Post Day4</h2>
+                            <p>Date: July 18,2024</p>
+                            <p>
+                                This is Very beautiful day in the Life ! I lived in a set of placess
+                            </p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>    
+            
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 col-lg-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded h-100 w-100" src="https://picsum.photos/300/200.jpg" alt="">
+                    
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class="mb-3">Post Day5</h2>
+                                 <p>Date: July 19,2024</p>
+                                 <p>
+                                     This is Very beautiful day in the Life ! I lived in a set of placess
+                                 </p>
+                             </div>
+                        </div>
+                    </div>
+                    
+                </div>
+               
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-2 mb-2 col-lg-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded h-100 w-100" src="https://picsum.photos/300/200.jpg" alt="">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <h2 class="mb-3">Post Day6</h2>
+                                    <p>Date: July 20,2024</p>
+                                    <p>
+                                        This is Very beautiful day in the Life ! I lived in a set of placess
+                                    </p>
+                                </div>            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>         
+    </div>
+
+<div class="container bg-white mb-2">
+    <div class="row p-3">
+        <h2>Contact Me</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="">Email Address</label>
+                <input type="email" class="form-control" name="" id="email">
+               
+            </div>
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" name="" id="email" class="form-control">
+               
+            </div>
+           <div class="form-group">
+            <label for="">Message</label>
+            <textarea id="msg" class="form-control" cols="" rows=""></textarea>
+        
+           </div> 
+            <button type="submit" class="btn btn-primary my-2">Send</button>
+        </form>
+    </div>
+</div>
+
+<div id="map" style="height: 150px;">
+
+</div>
+
+<script>
+    var map = L.map('map').setView([11.3410,77.7172], 13);
+    var marker = L.marker([11.3410,77.7172]).addTo(map);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 10,
+}).addTo(map);
+</script>
+
+
+    <footer class="p-3 bg-dark text-white">
+        <div class="row">
+            <div class="col">
+                <p>2024 CK Blog. All Rights reserved</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a  class="text-white text-decoration-none" href="#">Terms & Condition</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Privacy Policy</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
