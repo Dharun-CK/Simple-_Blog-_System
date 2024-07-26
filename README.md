@@ -1,4 +1,4 @@
-# SIMPLE  BLOG  SYSTEM :smile: ⬇️:
+# SIMPLE  BLOG  SYSTEM📝⬇️☯️
 
 - Simple Blog System
      - Blog.html(Inline-HTML)
